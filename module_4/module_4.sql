@@ -214,6 +214,8 @@ WITH anapa AS -- Данные по направлению Анапа за зим
 SELECT row_number()over (order by an.flight_id),
        *,
        (an.scheduled_arrival - an.scheduled_departure) flight_time,
+       EXTRACT(epoch
+                FROM (an.scheduled_arrival - an.scheduled_departure)) flight_time_sec,
        (EXTRACT(epoch
                 FROM (an.scheduled_arrival - an.scheduled_departure)) / 3600)*c.litres_per_hour fuel_consumption,
        ((EXTRACT(epoch
