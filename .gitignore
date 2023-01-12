@@ -83,6 +83,15 @@ ipython_config.py
 
 # pyenv
 .python-version
+*.zip
+*.pkl
+*.model
+*.gz
+*/MVD/dataframe.csv
+*/MVD/Mamuriy/export_protocols_emi.csv
+*/ML-4/data/train.csv
+*/UNIT-9/data/ratings.csv
+*/UNIT-9/data/book_tags.csv
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
