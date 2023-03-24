@@ -92,6 +92,14 @@ ipython_config.py
 */ML-4/data/train.csv
 */UNIT-9/data/ratings.csv
 */UNIT-9/data/book_tags.csv
+*/OfficeCV/data/raw_data/
+*/DATA/content/
+*/CV/content
+*/CV-2/data
+*/CV-2/flowers
+*/CV-3/train
+*/DL-4/data
+*/DL-5/beans_dataset
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
