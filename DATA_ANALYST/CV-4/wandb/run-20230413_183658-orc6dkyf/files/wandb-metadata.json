@@ -1,0 +1,61 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-04-13T13:37:01.477581",
+    "startedAt": "2023-04-13T13:36:58.911249",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "640",
+        "--batch",
+        "1",
+        "--epochs",
+        "1",
+        "--data",
+        "./yolov5/homework.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "D:\\Projects\\DataScience\\SkillFactory\\DATA_ANALYST\\CV-4\\yolov5\\train.py",
+    "codePath": "DATA_ANALYST\\CV-4\\yolov5\\train.py",
+    "git": {
+        "remote": "https://github.com/stuit/I-am-data-scientist.git",
+        "commit": "d9b4a34b835e72311e0ed9f8f8bede9fb5a1f06a"
+    },
+    "email": "thenexus85@gmail.com",
+    "root": "D:/Projects/DataScience/SkillFactory",
+    "host": "MSI",
+    "username": "ilkhom-pc",
+    "executable": "D:\\ProgrammFiles\\miniconda\\envs\\cv\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2304.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2304.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 781.2490196228027,
+        "used": 479.1804618835449
+    },
+    "gpu": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.820354461669922
+    }
+}

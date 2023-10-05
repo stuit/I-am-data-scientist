@@ -87,6 +87,7 @@ ipython_config.py
 *.pkl
 *.model
 *.gz
+*.pth
 */MVD/dataframe.csv
 */MVD/Mamuriy/export_protocols_emi.csv
 */ML-4/data/train.csv
@@ -98,8 +99,23 @@ ipython_config.py
 */CV-2/data
 */CV-2/flowers
 */CV-3/train
+*/CV-4/VOCdevkit
+*/CV-4/VOC.tar
+*/CV-4/datasets
+*/CV-6/annotations
+*/CV-6/images
+*/CV-6/images.tar.gz
+*/CV-9/cats
+*/CV-10/horses_test
+*/CV-10/horses_train
+*/CV-10/zebra_test
+*/CV-10/zebra_train
 */DL-4/data
 */DL-5/beans_dataset
+*/NLP-2/.data
+*/NLP-2/.vector_cache
+project_2/project
+project_3/dataset
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
